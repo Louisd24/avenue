@@ -470,8 +470,19 @@ footer ul li + li {
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url('../images/img10.png');
   z-index: 1;
+}
+
+.box.one::after {
+  background-image: url('../images/img10.png');
+}
+
+.box.two::after {
+  background-image: url('../images/img11.png');
+}
+
+.box.three::after {
+  background-image: url('../images/img12.png');
 }
 
 .box .box-inner {
@@ -784,8 +795,6 @@ a:hover {
 .details nav ul {
   display: flex;
 }
-
-.details nav ul li {}
 
 .details nav ul li a {
   display: block;

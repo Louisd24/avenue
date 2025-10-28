@@ -106,7 +106,7 @@ footer h3 {
     4) LAYOUT Y CONTENEDORES
 ====================================== */
 .container {
-  max-width: 85rem;
+  max-width: 920px;
   width: 100%;
   margin: 0 auto;
 }
@@ -121,17 +121,39 @@ footer h3 {
   margin: 0 auto;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .block {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
 .row {
   display: flex;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .col {
@@ -153,6 +175,37 @@ footer h3 {
 
 .gap-3 {
   gap: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.currency {
+  font-size: 1rem;
+  vertical-align: super;
+}
+
+.meta-data p {
+  font-size: 14px;
+}
+
+.meta-data a {
+  text-decoration: none;
+  color: #00c8c8;
+}
+
+.meta-data strong {
+  text-transform: uppercase;
+}
+
+.meta-data a:hover {
+  color: black;
 }
 
 .altura-header {
@@ -214,6 +267,18 @@ footer > .footer-cols > section {
 
 .w-100 {
   width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
 }
 
 .h-40 {
@@ -288,6 +353,18 @@ footer > .footer-cols > section {
   color: #999;
 }
 
+.text-blue {
+  color: #00c8c8;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.thin {
+  font-weight: 300;
+}
+
 footer a,
 footer address {
   color: #999;
@@ -315,6 +392,10 @@ footer a:hover {
 
 .p-b20 {
   padding-bottom: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 
 footer h3 {
@@ -634,4 +715,92 @@ a:hover {
 
 .paddel {
   padding-top: 2rem;
+}
+
+/* Product-view */
+
+.select label, .input label  {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.select select, .input input {
+  appearance: none;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 12px 26px;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #222;
+  transition: all 0.2s ease;
+}
+
+.button-primary {
+  background: #222;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.button-primary:hover {
+  background: white;
+  color: #222;
+}
+
+.button-secondary {
+  background: #fff;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.button-secondary:hover {
+  background: #222;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.details {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.details nav {
+  background-color: #eee;
+}
+.details nav ul {
+  display: flex;
+}
+
+.details nav ul li {}
+
+.details nav ul li a {
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.details nav ul li a:hover {
+  background-color: #222;
+  color: white;
+}
+
+.details article {
+  margin-top: 24px;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 12px 0 24px;
 }

@@ -60,53 +60,83 @@
     </section>
 
     <section>
-      <h2>AVE Classic Sweatshirt</h2>
-      <img src="assets/images/stars.png" alt="Stars Review"> 
-      <a href="">Add a Review</a>
-      <ul>
-        <li>
-          <a href="">Facebook</a></li><li><a href="">Twitter</a></li>
-        <li>
-          <a href="">Google</a></li><li><a href="">Pinterest</a></li>
-        <li>
-          <a href="">Instagram</a></li>
-        <li><a href="">Gmail</a></li>
-      </ul>
-      <p>£107 £89.99</p>
-      <p>Availability: In stock</p>
-      <p>Product code: 459987</p>
-      <p>Tags: Classic, Casual, V-neck, Loose</p>
-      <ul>
-        <li>Donec sem lorem, laoreet tempus…</li>
-        <li>100% cotton</li>
-        <li>Free shipping within 4 days delivery</li>
-      </ul>
+      <div class="right">
+        // image
+      </div>
+      <div class="left">
+        <h2>AVE Classic Sweatshirt</h2>
 
-      <form>
-        <label>Colour</label>
-        <select>
-          <option>Select Colour</option>
-          <option>Black</option>
-          <option>Teal</option>
-          <option>Grey</option>
-        </select>
+        <div class="row gap-1">
+          <img src="assets/images/stars.png" alt="Stars Review"> 
 
-        <label>Size</label>
-        <select>
-          <option>Select Size</option>
-          <option>S</option>
-          <option>M</option>
-          <option>L</option>
-          <option>XL</option>
-        </select>
+          <a href="#">Add a Review</a>
 
-        <label>Quantity</label>
-        <input type="number" min="1" value="1">
+          <ul class="row gap-1" aria-label="Share">
+            <li>
+              <a href="">Facebook</a></li><li><a href="">Twitter</a></li>
+            <li>
+              <a href="">Google</a></li><li><a href="">Pinterest</a></li>
+            <li>
+              <a href="">Instagram</a></li>
+            <li><a href="">Gmail</a></li>
+          </ul>
+        </div>
 
-        <button type="button">Add to Cart</button>
-        <button type="button">Add to Lookbook</button>
-        <button type="button">Add to Compare</button>
-      </form>
+        <div>
+          <p>£107 £89.99</p>
+        </div>
+
+        <div>
+          <p>Availability: In stock</p>
+          <p>Product code: 459987</p>
+          <p>Tags: Classic, Casual, V-neck, Loose</p>
+        </div>
+
+        <div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque odio tenetur vitae alias ipsam vel explicabo sunt obcaecati praesentium dicta voluptatum commodi corporis asperiores doloribus, fuga illum ipsa repudiandae harum!</p>
+
+          <ul>
+            <li>Donec sem lorem, laoreet tempus…</li>
+            <li>100% cotton</li>
+            <li>Free shipping within 4 days delivery</li>
+          </ul>
+        </div>
+
+        <form>
+          <div>
+            <label>Colour</label>
+            <select>
+              <option>Select Colour</option>
+              <option>Black</option>
+              <option>Teal</option>
+              <option>Grey</option>
+            </select>
+          </div>
+          <div>
+            <label>Size</label>
+            <select>
+              <option>Select Size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </div> 
+          <div>
+            <label>Quantity</label>
+            <input type="number" min="1" value="1">
+          </div>
+
+          <div class="action-buttons">
+            <button type="button" class="btn-primary">Add to Cart</button>
+            <button type="button"  class="btn-secodary">Add to Lookbook</button>
+          </div>
+
+          <div class="secondary-action-buttons">
+            <button type="button"><i>I</i> Add to Compare</button>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
 

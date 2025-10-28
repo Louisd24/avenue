@@ -186,6 +186,10 @@ footer h3 {
   font-weight: 300;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .currency {
   font-size: 1rem;
   vertical-align: super;
@@ -797,6 +801,16 @@ a:hover {
 
 .details article {
   margin-top: 24px;
+}
+
+.details article h4 {
+  color: #777;
+  font-weight: 600;
+}
+
+.details article p {
+  color: #777;
+  margin-top: 12px;
 }
 
 .list {
